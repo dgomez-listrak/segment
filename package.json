@@ -2,7 +2,8 @@
   "name": "ltk-onescript",
   "version": "1.0.3",
   "description": "ltk onescript test integration",
-  "main": "index.js",
+  "main": "lib/index.js",
+
 "scripts":{
   },
   "repository": {
@@ -22,6 +23,8 @@
   "devDependencies": {
     "@segment/analytics.js-core": "^3.0.0",
     "@segment/analytics.js-integration-tester": "^3.1.0",
-    "@segment/clear-env": "^2.0.0"  
+    "@segment/clear-env": "^2.0.0",
+    "@segment/eslint-config": "^3.1.1",
+    "npm-check": "^5.2.1"
   }
 }

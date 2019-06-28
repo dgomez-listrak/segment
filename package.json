@@ -1,0 +1,27 @@
+{
+  "name": "ltk-onescript",
+  "version": "1.0.1",
+  "description": "ltk onescript test integration",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgomez-listrak/segment.git"
+  },
+  "author": "listrak\\",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgomez-listrak/segment/issues"
+  },
+  "homepage": "https://github.com/dgomez-listrak/segment#readme",
+  "dependencies": {
+    "@segment/analytics.js-integration": "^3.1.0",
+    "analytics.js": "^2.9.1",
+    "segmentio-facade": "^3.1.0"
+  },
+  "devDependencies": {
+    "@segment/analytics.js-core": "^3.0.0",
+    "@segment/analytics.js-integration-tester": "^3.1.0",
+    "@segment/clear-env": "^2.0.0"
+  }
+}

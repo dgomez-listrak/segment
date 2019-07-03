@@ -1,6 +1,6 @@
 {
   "name": "ltk-onescript",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "ltk onescript test integration",
   "main": "lib/index.js",
 

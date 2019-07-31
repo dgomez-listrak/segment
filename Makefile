@@ -2,6 +2,9 @@
 # Binaries
 ##
 
+ESLINT := node_modules/.bin/eslint
+KARMA := node_modules/.bin/karma
+
 ##
 # Files
 ##
@@ -21,9 +24,16 @@ KARMA_FLAGS ?=
 
 # A list of Karma browser launchers to run
 # http://karma-runner.github.io/0.13/config/browsers.html
+BROWSERS ?=
+ifdef BROWSERS
+KARMA_FLAGS += --browsers $(BROWSERS)
+endif
 
-
-
+ifdef CI
+KARMA_CONF ?= karma.conf.ci.js
+else
+KARMA_CONF ?= karma.conf.js
+endif
 
 # Mocha flags.
 GREP ?= .
